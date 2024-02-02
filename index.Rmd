@@ -55,7 +55,7 @@ output:
 
   - De acordo com as normas da Universidade, mínimo de 75%.
   - Cada dia de aula corresponde a duas presenças.
-  - 15% de faltas correspondem a 15 dias.
+  - 25% de faltas correspondem a 15 dias.
 
 **Datas importantes**:
 
@@ -75,7 +75,7 @@ output:
 **Comunicação**: 
 
   - Como plataforma de comunicação será utilizado o Microsoft Teams da UFPR.
-  - Para conversas particulares contatar via chat privado do Teams ou pelo e-mail (lineu.alberto@ufpr.br e silvia.shimakura@gmail.com).
+  - Para conversas particulares contatar via chat privado do Teams ou pelo e-mail (lineu.alberto@ufpr.br e silvia.shimakura@ufpr.br).
 
 **Salas do professores**:
 
@@ -83,7 +83,7 @@ output:
   - Prédio do setor de ciências exatas (PA).
   - Departamento de Estatística (2º andar).
   - Lineu: sala 232/225.
-  - Silvia: sala ###.
+  - Silvia: sala 203.
 
 ---
 
@@ -119,7 +119,7 @@ As atividades avaliativas serão em dois formatos:
 **Critérios para aprovação**
 
  - Será considerado aprovado sem exame o aluno com nota igual ou superior a 70 com presença igual ou superior a 75%.
- - Será considerado reprovado sem direito a exame o aluno com nota inferior a 40 E/OU presença menor que 15%.
+ - Será considerado reprovado sem direito a exame o aluno com nota inferior a 40 E/OU presença menor que 25%.
  - Terá direito a exame o aluno com nota maior ou igual a 40 e menor que 70 e presença superior a 75%.
     - A nota final do aluno que realizou exame é a média do período regular e da nota do exame. Se esta média for superior a 50 o aluno é aprovado por exame.
         

@@ -80,73 +80,73 @@ output:
 
 **Semana 7**
 
- - 08/04/24 (seg) - 
- - 09/04/24 (ter) - 
- - 11/04/24 (qui) - 
- - 12/04/24 (sex) - 
+ - 08/04/24 (seg) - Introdução a probabilidade.
+ - 09/04/24 (ter) - Operações com probabilidades.
+ - 11/04/24 (qui) - Dinâmica.
+ - 12/04/24 (sex) - Prática em R
     
 **Semana 8**
 
- - 15/04/24 (seg) - 
- - 16/04/24 (ter) - 
- - 18/04/24 (qui) - 
- - 19/04/24 (sex) - 
+ - 15/04/24 (seg) - Teorema de Bayes.
+ - 16/04/24 (ter) - Exercícios.
+ - 18/04/24 (qui) - Dinâmica.
+ - 19/04/24 (sex) - Prática em R
     
 **Semana 9**
 
- - 22/04/24 (seg) - 
- - 23/04/24 (ter) - 
- - 25/04/24 (qui) - 
- - 26/04/24 (sex) - 
+ - 22/04/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 23/04/24 (ter) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 25/04/24 (qui) - **PROVA 2** (possível data).
+ - 26/04/24 (sex) - **PROVA 2** (possível data).
     
 **Semana 10**
 
- - 29/04/24 (seg) - 
- - 30/04/24 (ter) - 
- - 02/05/24 (qui) - 
- - 03/05/24 (sex) - 
+ - 29/04/24 (seg) - Variáveis aleatórias discretas e contínuas.
+ - 30/04/24 (ter) - Exercícios.
+ - 02/05/24 (qui) - Dinâmica.
+ - 03/05/24 (sex) - Prática em R.
     
 **Semana 11**
 
- - 06/05/24 (seg) - 
- - 07/05/24 (ter) - 
- - 09/05/24 (qui) - 
- - 10/05/24 (sex) - 
+ - 06/05/24 (seg) - Distribuições de probabilidade discretas.
+ - 07/05/24 (ter) - Distribuições de probabilidade contínuas.
+ - 09/05/24 (qui) - Dinâmica.
+ - 10/05/24 (sex) - Prática em R.
     
 **Semana 12**
 
- - 13/05/24 (seg) - 
- - 14/05/24 (ter) - 
- - 16/05/24 (qui) - 
- - 17/05/24 (sex) - 
+ - 13/05/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 14/05/24 (ter) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 16/05/24 (qui) - **PROVA 3** (possível data).
+ - 17/05/24 (sex) - **PROVA 3** (possível data).
     
 **Semana 13**
 
- - 13/05/24 (seg) - 
- - 14/05/24 (ter) - 
- - 16/05/24 (qui) - 
- - 17/05/24 (sex) - 
+ - 13/05/24 (seg) - Introdução à inferência.
+ - 14/05/24 (ter) - Exercícios distribuição amostral.
+ - 16/05/24 (qui) - Dinâmica.
+ - 17/05/24 (sex) - Prática em R
     
 **Semana 14**
 
- - 20/05/24 (seg) - 
- - 21/05/24 (ter) - 
- - 23/05/24 (qui) - 
- - 24/05/24 (sex) - 
+ - 20/05/24 (seg) - Estimação pontual e intervalar.
+ - 21/05/24 (ter) - Tamanho amostral + Exercícios.
+ - 23/05/24 (qui) - Dinâmica.
+ - 24/05/24 (sex) - Prática em R.
     
 **Semana 15**
 
- - 27/05/24 (seg) - 
- - 28/05/24 (ter) - 
+ - 27/05/24 (seg) - Introdução aos testes de hipóteses e testes para uma população.
+ - 28/05/24 (ter) - Exercícios.
  - 30/05/24 (qui) - **Feriado: Corpus Christi.**
  - 31/05/24 (sex) - **Feriado: Corpus Christi.**
     
 **Semana 16**
 
- - 03/06/24 (seg) - 
- - 04/06/24 (ter) - 
- - 06/06/24 (qui) - 
- - 07/06/24 (sex) -
+ - 03/06/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 04/06/24 (ter) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 06/06/24 (qui) - **PROVA 4** (possível data).
+ - 07/06/24 (sex) - **PROVA 4** (possível data).
     
 **Semana 17**
 

@@ -37,34 +37,34 @@ output:
 **Semana 1**
 
  - 26/02/24 (seg) - **INÍCIO DO PERÍODO LETIVO/RECEPÇÃO**
- - 27/02/24 (ter) - [Orientações iniciais e Introdução.](100-introducao.pdf)
+ - 27/02/24 (ter) - [Orientações iniciais e Introdução.](slides/100-introducao.pdf)
  - 29/02/24 (qui) - [Revisão matemática.](slides/000-revisao-matematica.pdf)
  - 01/03/24 (sex) - Revisão matemática.
  
 **Semana 2**
 
  - 04/03/24 (seg) - Revisão matemática.
- - 05/03/24 (ter) - [Dados e amostragem.](101-dados-e-amostragem.pdf)
+ - 05/03/24 (ter) - [Dados e amostragem.](slides/101-dados-e-amostragem.pdf)
  - 07/03/24 (qui) - Dinâmica.
  - 08/03/24 (sex) - [Ambientação ao R.](praticas-R/000-ambientacao-ao-R.R)
     
 **Semana 3**
 
- - 11/03/24 (seg) - [Gráficos e tabelas para variáveis qualitativas.](201-exploratoria-quali-uni-tabelas-graficos.pdf)
- - 12/03/24 (ter) - [Gráficos e tabelas para variáveis quantitativas.](203-exploratoria-quant-uni-tabelas-graficos.pdf)
+ - 11/03/24 (seg) - [Gráficos e tabelas para variáveis qualitativas.](slides/201-exploratoria-quali-uni-tabelas-graficos.pdf)
+ - 12/03/24 (ter) - [Gráficos e tabelas para variáveis quantitativas.](slides/203-exploratoria-quant-uni-tabelas-graficos.pdf)
  - 14/03/24 (qui) - Dinâmica.
  - 15/03/24 (sex) - [Gráficos e tabelas no R.](praticas-R/100-graficos-tabelas-uni.R)
     
 **Semana 4**
 
- - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](205-exploratoria-medidas-posicao.pdf)
- - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](207-exploratoria-medidas-dispersao.pdf)
+ - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](slides/205-exploratoria-medidas-posicao.pdf)
+ - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](slides/207-exploratoria-medidas-dispersao.pdf)
  - 21/03/24 (qui) - Dinâmica.
  - 22/03/24 (sex) - [Medidas de posição e dispersão no R.](praticas-R/101-medidas-uni.R)
     
 **Semana 5**
 
- - 25/03/24 (seg) - [Análises bivariadas.](209-exploratoria-bivariada.pdf)
+ - 25/03/24 (seg) - [Análises bivariadas.](slides/209-exploratoria-bivariada.pdf)
  - 26/03/24 (ter) - Dinâmica.
  - 28/03/24 (qui) - [Análises bivariadas no R.](praticas-R/102-analises-bivariadas.R)
  - 29/03/24 (sex) - **Feriado: sexta-feira santa.**

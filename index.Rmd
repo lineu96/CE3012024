@@ -44,10 +44,10 @@ output:
 
 **Locais e horários**:
 
-  - Segunda, 20:45 - 22:15, *LOCAL A DEFINIR*.
-  - Terça, 19:00 - 20:30, *LOCAL A DEFINIR*.
-  - Quinta, 20:45 - 22:15, *LOCAL A DEFINIR*.
-  - Sexta, 19:00 - 20:30, *LOCAL A DEFINIR*.
+  - Segunda, 20:45 - 22:15, PA-08.
+  - Terça, 19:00 - 20:30, PA-08.
+  - Quinta, 20:45 - 22:15, PA-08.
+  - Sexta, 19:00 - 20:30, PA-08.
 
 **Horários de atendimento**: a combinar.
 

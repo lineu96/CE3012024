@@ -15,17 +15,26 @@ navbar:
       icon: fa-calendar
       href: aulas.html
 
-    # - text: "Exercícios sugeridos"
-    #   icon: fa-pen
-    #   menu:
-    # 
-    #     - text: "---------" 
-    # 
-    #     - text: "..."
-    #       icon: fa-arrow-right
-    #       href: 
-    # 
-    #     - text: "---------" 
+    - text: "Exercícios"
+      icon: fa-pencil
+      menu:
+      
+        - text: "Análise exploratória"
+          icon: fa-arrow-right
+          href: 
+        
+        - text: "Probabilidade"
+          icon: fa-arrow-right
+          href: 
+        
+        - text: "Variáveis aleatórias"
+          icon: fa-arrow-right
+          href: 
+        
+        - text: "Inferência"
+          icon: fa-arrow-right
+          href: 
+
         
     - text: "Notas"
       icon: fa-table

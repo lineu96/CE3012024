@@ -21,7 +21,7 @@ navbar:
       
         - text: "Análise exploratória"
           icon: fa-arrow-right
-          href: 
+          href: listas/100-exercicios-exploratoria.pdf
         
         - text: "Probabilidade"
           icon: fa-arrow-right
@@ -36,7 +36,7 @@ navbar:
           href: 
 
         
-    - text: "Notas"
+    - text: "Notas e frequência"
       icon: fa-table
       href: notas.html
       

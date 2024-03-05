@@ -18,7 +18,11 @@ navbar:
     - text: "Exercícios"
       icon: fa-pencil
       menu:
-      
+
+        - text: "Elementos de matemática"
+          icon: fa-arrow-right
+          href: listas/000-matbas.pdf
+
         - text: "Análise exploratória"
           icon: fa-arrow-right
           href: listas/100-exercicios-exploratoria.pdf

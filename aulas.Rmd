@@ -45,7 +45,7 @@ output:
 
  - 04/03/24 (seg) - Revisão matemática.
  - 05/03/24 (ter) - [Dados e amostragem.](slides/101-dados-e-amostragem.pdf)
- - 07/03/24 (qui) - Dinâmica.
+ - 07/03/24 (qui) - [Atividade prática amostragem](slides/102-exercicios-enunciados.pdf).
  - 08/03/24 (sex) - [Ambientação ao R.](praticas-R/000-ambientacao-ao-R.R)
     
 **Semana 3**

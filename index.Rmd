@@ -77,13 +77,23 @@ output:
   - Como plataforma de comunicação será utilizado o Microsoft Teams da UFPR.
   - Para conversas particulares contatar via chat privado do Teams ou pelo e-mail (lineu.alberto@ufpr.br e silvia.shimakura@ufpr.br).
 
-**Salas do professores**:
+**Salas dos professores**:
 
   - Centro politécnico.
   - Prédio do setor de ciências exatas (PA).
   - Departamento de Estatística (2º andar).
   - Lineu: sala 232/225.
   - Silvia: sala 203.
+
+**Monitoria**:
+
+ - Monitor: Alan Vitor Lima Silva.
+ - Dias e horários de atendimento: Segunda, Terça e Quarta das 17h as 19h.
+ - Local: 
+    - Centro politécnico.
+    - Prédio do setor de ciências exatas (PA).
+    - Departamento de Estatística (2º andar).
+    - Sala de monitoria (217) ou LEG (232).
 
 ---
 

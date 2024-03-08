@@ -88,7 +88,7 @@ output:
 **Monitoria**:
 
  - Monitor: Alan Vitor Lima Silva.
- - Dias e horários de atendimento: Segunda, Terça e Quarta das 17h as 19h.
+ - Dias e horários de atendimento: Segunda, Quarta e Sexta das 17h as 19h.
  - Local: 
     - Centro politécnico.
     - Prédio do setor de ciências exatas (PA).

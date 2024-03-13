@@ -45,14 +45,14 @@ output:
 
  - 04/03/24 (seg) - Revisão matemática.
  - 05/03/24 (ter) - [Dados e amostragem.](slides/101-dados-e-amostragem.pdf)
- - 07/03/24 (qui) - [Atividade prática amostragem](slides/102-exercicios-enunciados.pdf).
+ - 07/03/24 (qui) - [Atividade prática: tipos de variáveis, tipos de estudos e amostragem](praticas-aula/100-variaveis-estudos-amostragem-enunciados.pdf).
  - 08/03/24 (sex) - Introdução ao R ([slides](slides/000-introducao-ao-r.pdf), [script](praticas-R/000-ambientacao-ao-R.R))
     
 **Semana 3**
 
  - 11/03/24 (seg) - [Gráficos e tabelas para variáveis qualitativas.](slides/201-exploratoria-quali-uni-tabelas-graficos.pdf)
  - 12/03/24 (ter) - [Gráficos e tabelas para variáveis quantitativas.](slides/203-exploratoria-quant-uni-tabelas-graficos.pdf)
- - 14/03/24 (qui) - Dinâmica.
+ - 14/03/24 (qui) - [Atividade prática: gráficos e tabelas](praticas-aula/101-tabelas-graficos-quali-quant-enunciados.pdf).
  - 15/03/24 (sex) - [Gráficos e tabelas no R.](praticas-R/100-graficos-tabelas-uni.R)
     
 **Semana 4**
@@ -122,51 +122,44 @@ output:
     
 **Semana 13**
 
- - 13/05/24 (seg) - Introdução à inferência.
- - 14/05/24 (ter) - Exercícios distribuição amostral.
- - 16/05/24 (qui) - Dinâmica.
- - 17/05/24 (sex) - Prática em R
+ - 20/05/24 (seg) - Introdução à inferência.
+ - 21/05/24 (ter) - Exercícios distribuição amostral.
+ - 23/05/24 (qui) - Dinâmica.
+ - 24/05/24 (sex) - Prática em R
     
 **Semana 14**
 
- - 20/05/24 (seg) - Estimação pontual e intervalar.
- - 21/05/24 (ter) - Tamanho amostral + Exercícios.
- - 23/05/24 (qui) - Dinâmica.
- - 24/05/24 (sex) - Prática em R.
-    
-**Semana 15**
-
- - 27/05/24 (seg) - Introdução aos testes de hipóteses e testes para uma população.
- - 28/05/24 (ter) - Exercícios.
+ - 27/05/24 (seg) - Estimação pontual e intervalar.
+ - 28/05/24 (ter) - Tamanho amostral + Exercícios.
  - 30/05/24 (qui) - **Feriado: Corpus Christi.**
  - 31/05/24 (sex) - **Feriado: Corpus Christi.**
     
+**Semana 15**
+
+ - 03/05/24 (seg) - Dinâmica.
+ - 04/05/24 (ter) - Prática em R.
+ - 06/05/24 (qui) - Introdução aos testes de hipóteses e testes para uma população.
+ - 07/05/24 (sex) - Exercícios.
+    
 **Semana 16**
 
- - 03/06/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 04/06/24 (ter) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 06/06/24 (qui) - **PROVA 4** (possível data).
- - 07/06/24 (sex) - **PROVA 4** (possível data).
+ - 10/06/24 (seg) - Dinâmica. 
+ - 11/06/24 (ter) - Prática em R.
+ - 13/06/24 (qui) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 14/06/24 (sex) - Tira dúvidas/exercícios/dinâmica (a definir).
     
 **Semana 17**
 
- - 10/06/24 (seg) - 
- - 11/06/24 (ter) - 
- - 13/06/24 (qui) - 
- - 14/06/24 (sex) -
+ - 17/06/24 (seg) - **PROVA 4** (possível data).
+ - 18/06/24 (ter) - **PROVA 4** (possível data).
+ - 20/06/24 (qui) - **PROVA 4** (possível data).
+ - 21/06/24 (sex) - **PROVA 4** (possível data).
     
 **Semana 18**
 
- - 17/06/24 (seg) - 
- - 18/06/24 (ter) - 
- - 20/06/24 (qui) - 
- - 21/06/24 (sex) -
-    
-**Semana 19**
-
  - 24/06/24 (seg) - 
  - 25/06/24 (ter) - 
- - 26/06/24 (qua) - **FIM DO PERÍODO LETIVO**
+ - 26/06/24 (qui) - **FIM DO PERÍODO LETIVO**
 
 **Exames (possíveis datas)**
 

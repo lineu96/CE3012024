@@ -59,7 +59,7 @@ output:
 
  - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](slides/205-exploratoria-medidas-posicao.pdf)
  - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](slides/207-exploratoria-medidas-dispersao.pdf)
- - 21/03/24 (qui) - Dinâmica.
+ - 21/03/24 (qui) - [Atividade prática: medidas de posição e dispersão](slides/102-medidas-posicao-dispersao-enunciados.pdf).
  - 22/03/24 (sex) - [Medidas de posição e dispersão no R.](praticas-R/101-medidas-uni.R)
     
 **Semana 5**

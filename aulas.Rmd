@@ -59,13 +59,13 @@ output:
 
  - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](slides/205-exploratoria-medidas-posicao.pdf)
  - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](slides/207-exploratoria-medidas-dispersao.pdf)
- - 21/03/24 (qui) - [Atividade prática: medidas de posição e dispersão](slides/102-medidas-posicao-dispersao-enunciados.pdf).
+ - 21/03/24 (qui) - [Atividade prática: medidas de posição e dispersão](praticas-aula/102-medidas-posicao-dispersao-enunciados.pdf).
  - 22/03/24 (sex) - [Medidas de posição e dispersão no R.](praticas-R/101-medidas-uni.R)
     
 **Semana 5**
 
  - 25/03/24 (seg) - [Análises bivariadas.](slides/209-exploratoria-bivariada.pdf)
- - 26/03/24 (ter) - Dinâmica.
+ - 26/03/24 (ter) - [Atividade prática: análises bivariadas](praticas-aula/103-analises-bivariadas-enunciados.pdf).
  - 28/03/24 (qui) - [Análises bivariadas no R.](praticas-R/102-analises-bivariadas.R)
  - 29/03/24 (sex) - **Feriado: sexta-feira santa.**
     

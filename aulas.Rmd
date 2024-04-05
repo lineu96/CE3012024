@@ -73,8 +73,8 @@ output:
 
  - 01/04/24 (seg) - Tira dúvidas Silvia (sala 203).
  - 02/04/24 (ter) - Tira dúvidas Lineu (sala 232/225).
- - 04/04/24 (qui) - **PROVA 1**.
- - 05/04/24 (sex) - A definir.
+ - 04/04/24 (qui) - [**PROVA 1**](provas/prova1-ce301.pdf).
+ - 05/04/24 (sex) - Prática em R.
 
 ---
 

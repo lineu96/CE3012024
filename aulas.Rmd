@@ -86,7 +86,7 @@ output:
 
 **Semana 7**
 
- - 08/04/24 (seg) - Aula com o prof. Paulo Justiniando: Motivando probabilidades. [Lista 1](pj-preprob.pdf), [Lista 2](pj-pospro.pdf).
+ - 08/04/24 (seg) - Aula com o prof. Paulo Justiniano: Motivando probabilidades. [Lista 1](pj-preprob.pdf), [Lista 2](pj-pospro.pdf).
  - 09/04/24 (ter) - [Introdução a probabilidade](slides/300-intro-prob.pdf).
  - 11/04/24 (qui) - Dinâmica.
  - 12/04/24 (sex) - Prática em R

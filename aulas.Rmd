@@ -54,21 +54,21 @@ output:
     
 **Semana 3**
 
- - 11/03/24 (seg) - [Gráficos e tabelas para variáveis qualitativas.](slides/201-exploratoria-quali-uni-tabelas-graficos.pdf)
- - 12/03/24 (ter) - [Gráficos e tabelas para variáveis quantitativas.](slides/203-exploratoria-quant-uni-tabelas-graficos.pdf)
+ - 11/03/24 (seg) - [Gráficos e tabelas para variáveis qualitativas.](slides/102-exploratoria-quali-uni-tabelas-graficos.pdf)
+ - 12/03/24 (ter) - [Gráficos e tabelas para variáveis quantitativas.](slides/103-exploratoria-quant-uni-tabelas-graficos.pdf)
  - 14/03/24 (qui) - [Atividade prática: gráficos e tabelas](praticas-aula/101-tabelas-graficos-quali-quant-solucao.pdf).
  - 15/03/24 (sex) - [Gráficos e tabelas no R.](praticas-R/100-graficos-tabelas-uni.R)
     
 **Semana 4**
 
- - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](slides/205-exploratoria-medidas-posicao.pdf)
- - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](slides/207-exploratoria-medidas-dispersao.pdf)
+ - 18/03/24 (seg) - [Resumos numéricos - medidas de posição.](slides/104-exploratoria-medidas-posicao.pdf)
+ - 19/03/24 (ter) - [Resumos numéricos - medidas de dispersão.](slides/105-exploratoria-medidas-dispersao.pdf)
  - 21/03/24 (qui) - [Atividade prática: medidas de posição e dispersão](praticas-aula/102-medidas-posicao-dispersao-solucao.pdf).
  - 22/03/24 (sex) - [Medidas de posição e dispersão no R.](praticas-R/101-medidas-uni.R)
     
 **Semana 5**
 
- - 25/03/24 (seg) - [Análises bivariadas.](slides/209-exploratoria-bivariada.pdf)
+ - 25/03/24 (seg) - [Análises bivariadas.](slides/106-exploratoria-bivariada.pdf)
  - 26/03/24 (ter) - [Atividade prática: análises bivariadas](praticas-aula/103-analises-bivariadas-solucao.pdf).
  - 28/03/24 (qui) - [Análises bivariadas no R.](praticas-R/102-analises-bivariadas.R)
  - 29/03/24 (sex) - **Feriado: sexta-feira santa.**
@@ -87,14 +87,14 @@ output:
 **Semana 7**
 
  - 08/04/24 (seg) - Aula com o prof. Paulo Justiniano: Motivando probabilidades. [Lista 1](pj-preprob.pdf), [Lista 2](pj-pospro.pdf).
- - 09/04/24 (ter) - [Introdução a probabilidade](slides/300-intro-prob.pdf).
- - 11/04/24 (qui) - Dinâmica.
+ - 09/04/24 (ter) - [Introdução a probabilidade](slides/200-intro-prob.pdf).
+ - 11/04/24 (qui) - [Operações com probabilidades](slides/201-operacoes-com-probabilidades.pdf).
  - 12/04/24 (sex) - Prática em R
     
 **Semana 8**
 
- - 15/04/24 (seg) - Operações com probabilidades.
- - 16/04/24 (ter) - Teorema de Bayes.
+ - 15/04/24 (seg) - [Teorema de Bayes](slides/202-teorema-de-bayes.pdf).
+ - 16/04/24 (ter) - Dinâmica.
  - 18/04/24 (qui) - Dinâmica.
  - 19/04/24 (sex) - Prática em R
     

@@ -78,7 +78,7 @@ output:
  - 01/04/24 (seg) - Tira dúvidas Silvia (sala 203).
  - 02/04/24 (ter) - Tira dúvidas Lineu (sala 232/225).
  - 04/04/24 (qui) - [**PROVA 1**](provas/prova1-ce301.pdf).
- - 05/04/24 (sex) - Prática em R.
+ - 05/04/24 (sex) - Revisão da prova/resolução no R.
 
 ---
 
@@ -89,7 +89,7 @@ output:
  - 08/04/24 (seg) - Aula com o prof. Paulo Justiniano: Motivando probabilidades. [Lista 1](pj-preprob.pdf), [Lista 2](pj-pospro.pdf).
  - 09/04/24 (ter) - [Introdução a probabilidade](slides/200-intro-prob.pdf).
  - 11/04/24 (qui) - [Operações com probabilidades](slides/201-operacoes-com-probabilidades.pdf).
- - 12/04/24 (sex) - Prática em R
+ - 12/04/24 (sex) - Obtendo probabilidades da forma frequentista ([moeda](praticas-R/201-moeda.R), [dado](praticas-R/202-dado.R), [chavalier 1](praticas-R/203-chavalier1.R), [chavalier 2](praticas-R/204-chavalier2.R)). Calculando probabilidade com base em tabelas de dupla entrada ([animais](praticas-R/205-prob-animais.R)).
     
 **Semana 8**
 

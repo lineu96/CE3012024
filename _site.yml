@@ -33,7 +33,7 @@ navbar:
           
         - text: "Probabilidade"
           icon: fa-arrow-right
-          href: 
+          href: listas/201-exercicios-probabilidade.pdf
         
         - text: "Variáveis aleatórias"
           icon: fa-arrow-right

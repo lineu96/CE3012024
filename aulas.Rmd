@@ -94,16 +94,16 @@ output:
 **Semana 8**
 
  - 15/04/24 (seg) - [Teorema de Bayes](slides/202-teorema-de-bayes.pdf).
- - 16/04/24 (ter) - Dinâmica.
- - 18/04/24 (qui) - Dinâmica.
- - 19/04/24 (sex) - Prática em R
+ - 16/04/24 (ter) - Resolução de exercícios.
+ - 18/04/24 (qui) - Resolução de exercícios.
+ - 19/04/24 (sex) - [Atividade prática: probabilidades](praticas-aula/200-probabilidade-enunciados.pdf).
     
 **Semana 9**
 
- - 22/04/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 23/04/24 (ter) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 25/04/24 (qui) - **PROVA 2** (possível data).
- - 26/04/24 (sex) - **PROVA 2** (possível data).
+ - 22/04/24 (seg) - Tira dúvidas.
+ - 23/04/24 (ter) - Tira dúvidas.
+ - 25/04/24 (qui) - Tira dúvidas.
+ - 26/04/24 (sex) - **PROVA 2**.
 
 ---
 

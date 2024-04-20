@@ -96,7 +96,7 @@ output:
  - 15/04/24 (seg) - [Teorema de Bayes](slides/202-teorema-de-bayes.pdf).
  - 16/04/24 (ter) - Resolução de exercícios.
  - 18/04/24 (qui) - Resolução de exercícios.
- - 19/04/24 (sex) - [Atividade prática: probabilidades](praticas-aula/200-probabilidade-enunciados.pdf).
+ - 19/04/24 (sex) - [Atividade prática: probabilidades](praticas-aula/200-probabilidade-solucao.pdf).
     
 **Semana 9**
 

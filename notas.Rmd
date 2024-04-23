@@ -154,6 +154,75 @@ DT::datatable(notas[,c('GRR',
 
 ```
 
+<center>
+```{r, echo=FALSE}
+
+presencas <- 71-(colSums(notas[,15:82], na.rm = T)/2)
+
+datas <- seq(as.Date("2024-02-29"), 
+             as.Date("2024-06-25"), 
+             by = "days")
+
+exclusoes <- c(3,4,7)
+
+for (i in 1:16) {
+  tmp <- c(3,4,7)+(7*i)
+  exclusoes <- c(exclusoes,tmp)
+}
+
+datas <-  datas[-exclusoes]
+
+presencas <- data.frame(datas = datas,
+                        presencas = presencas)
+
+sem_aula <- as.Date(c('2024-02-29',
+                      '2024-03-01',
+                      '2024-03-29',
+                      '2024-04-01',
+                      '2024-04-02',
+                      '2024-04-29',
+                      '2024-04-19',
+                      '2024-04-22',
+                      '2024-04-23',
+                      '2024-04-25')
+)
+
+
+presencas2 <- subset(presencas, !(datas %in% sem_aula))
+
+pander::pander(posicao(subset(presencas2, datas <= lubridate::today())$presencas))
+pander::pander(dispersao(subset(presencas2, datas <= lubridate::today())$presencas))
+```
+</center>
+
+```{r, comment=FALSE, message=FALSE, fig.align='center', warning=TRUE, echo = FALSE, warning=FALSE, fig.width=10}
+
+library(ggplot2)
+library(ggpubr)
+
+ggplot(data = subset(presencas2, datas <= lubridate::today()),
+       aes(x=datas, y=presencas)) +
+  geom_line() +
+  geom_point() +
+  geom_smooth() +
+  geom_hline(yintercept = 71,
+             lwd = 1.5,
+             col = 2,
+             lty = 2) +
+  ylab("Densidade") +
+  xlab("") +
+  ylim(c(0,71))+
+  ggtitle("Série de presenças")+
+  theme_classic() + 
+  theme(legend.position = 'none',
+        plot.title = element_text(family = "Helvetica",
+                                  face = "bold",
+                                  size = (20),
+                                  hjust = 0),
+        axis.title = element_text(face = "bold",
+                                  size = 15),
+        text = element_text(size=15))
+```
 
 ---
 
@@ -193,7 +262,7 @@ p1 = ggplot(notas) +
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           text = element_text(size=15))
@@ -217,7 +286,7 @@ p2 = ggplot(data = notas,
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           axis.text.y=element_blank(),
@@ -263,7 +332,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           text = element_text(size=15))
@@ -287,7 +356,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           axis.text.y=element_blank(),
@@ -333,7 +402,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           text = element_text(size=15))
@@ -357,7 +426,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           axis.text.y=element_blank(),
@@ -403,7 +472,7 @@ p1 = ggplot(notas) +
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           text = element_text(size=15))
@@ -427,7 +496,7 @@ p2 = ggplot(data = notas,
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           axis.text.y=element_blank(),
@@ -473,7 +542,7 @@ p1 = ggplot(notas) +
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           text = element_text(size=15))
@@ -497,7 +566,7 @@ p2 = ggplot(data = notas,
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           axis.text.y=element_blank(),
@@ -543,7 +612,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           text = element_text(size=15))
@@ -567,7 +636,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           axis.text.y=element_blank(),
@@ -613,7 +682,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           text = element_text(size=15))
@@ -637,7 +706,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           axis.text.y=element_blank(),
@@ -683,7 +752,7 @@ p1 = ggplot(notas) +
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           text = element_text(size=15))
@@ -707,7 +776,7 @@ p2 = ggplot(data = notas,
                           plot.title = element_text(family = "Helvetica",
                                                     face = "bold",
                                                     size = (20),
-                                                    hjust = 0.5),
+                                                    hjust = 0), #0,5 para legenda centralizada
                           axis.title = element_text(face = "bold",
                                                     size = 15),
                           axis.text.y=element_blank(),
@@ -753,7 +822,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           text = element_text(size=15))
@@ -777,7 +846,7 @@ ggarrange(p1, p2,
 #                           plot.title = element_text(family = "Helvetica",
 #                                                     face = "bold",
 #                                                     size = (20),
-#                                                     hjust = 0.5),
+#                                                     hjust = 0), #0,5 para legenda centralizada
 #                           axis.title = element_text(face = "bold",
 #                                                     size = 15),
 #                           axis.text.y=element_blank(),

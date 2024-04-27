@@ -137,8 +137,8 @@ DT::datatable(notas[,c('GRR',
                        #'PROVA 3',
                        'REMOTA 1', 
                        'REMOTA 2',
-                       'TRABALHO 1'#,
-                       #'REMOTA 3',
+                       'TRABALHO 1',
+                       'REMOTA 3'#,
                        #'REMOTA 4',
                        #"NOTAS PRÉ EXAME",
                        #"SITUAÇÃO PRÉ EXAME",
@@ -585,68 +585,68 @@ ggarrange(p1, p2,
 
 <center>
 ```{r, echo=FALSE}
-# pander::pander(posicao(notas$`REMOTA 3`))
-# pander::pander(dispersao(notas$`REMOTA 3`))
+pander::pander(posicao(notas$`REMOTA 3`))
+pander::pander(dispersao(notas$`REMOTA 3`))
 ```
 </center>
 
 ```{r, comment=FALSE, message=FALSE, fig.align='center', warning=TRUE, echo = FALSE, warning=FALSE}
-# library(ggplot2)
-# library(ggpubr)
-# 
-# p1 = ggplot(notas) +
-#   geom_histogram(aes(x=`REMOTA 3`,
-#                      y=..density..),
-#                  position="identity",
-#                  col = 1,
-#                  lwd = 1,
-#                  breaks = seq(0,10,0.5)) +
-#   geom_density(aes(x=`REMOTA 3`,
-#                    y=..density..),
-#                col = 4,
-#                lwd = 1) +
-#   ylab("Densidade") +
-#   xlab("") +
-#   ggtitle("REMOTA 3")+
-#   theme_classic() + theme(legend.position = 'none',
-#                           plot.title = element_text(family = "Helvetica",
-#                                                     face = "bold",
-#                                                     size = (20),
-#                                                     hjust = 0), #0,5 para legenda centralizada
-#                           axis.title = element_text(face = "bold",
-#                                                     size = 15),
-#                           text = element_text(size=15))
-# 
-# p2 = ggplot(data = notas,
-#             mapping = aes(y=`REMOTA 3`, x='1')) +
-#   stat_boxplot(geom ='errorbar')+
-#   geom_boxplot(alpha = 1)+
-#   #xlim(c(0,10)) +
-#   stat_summary(fun.y=mean,
-#                geom="point",
-#                shape=20,
-#                size=3,
-#                color="red",
-#                fill="red")+
-#   ylab("Notas") +
-#   xlab("") +
-#   #ggtitle("Titulo")+
-#   scale_y_continuous(limits = c(0, 10))+
-#   theme_classic() + theme(legend.position = 'none',
-#                           plot.title = element_text(family = "Helvetica",
-#                                                     face = "bold",
-#                                                     size = (20),
-#                                                     hjust = 0), #0,5 para legenda centralizada
-#                           axis.title = element_text(face = "bold",
-#                                                     size = 15),
-#                           axis.text.y=element_blank(),
-#                           text = element_text(size=15)) +coord_flip()
-# 
-# ggarrange(p1, p2,
-#           heights = c(2, 1),
-#           align = "hv",
-#           ncol = 1,
-#           nrow = 2)
+library(ggplot2)
+library(ggpubr)
+
+p1 = ggplot(notas) +
+  geom_histogram(aes(x=`REMOTA 3`,
+                     y=..density..),
+                 position="identity",
+                 col = 1,
+                 lwd = 1,
+                 breaks = seq(0,10,0.5)) +
+  geom_density(aes(x=`REMOTA 3`,
+                   y=..density..),
+               col = 4,
+               lwd = 1) +
+  ylab("Densidade") +
+  xlab("") +
+  ggtitle("REMOTA 3")+
+  theme_classic() + theme(legend.position = 'none',
+                          plot.title = element_text(family = "Helvetica",
+                                                    face = "bold",
+                                                    size = (20),
+                                                    hjust = 0), #0,5 para legenda centralizada
+                          axis.title = element_text(face = "bold",
+                                                    size = 15),
+                          text = element_text(size=15))
+
+p2 = ggplot(data = notas,
+            mapping = aes(y=`REMOTA 3`, x='1')) +
+  stat_boxplot(geom ='errorbar')+
+  geom_boxplot(alpha = 1)+
+  #xlim(c(0,10)) +
+  stat_summary(fun.y=mean,
+               geom="point",
+               shape=20,
+               size=3,
+               color="red",
+               fill="red")+
+  ylab("Notas") +
+  xlab("") +
+  #ggtitle("Titulo")+
+  scale_y_continuous(limits = c(0, 10))+
+  theme_classic() + theme(legend.position = 'none',
+                          plot.title = element_text(family = "Helvetica",
+                                                    face = "bold",
+                                                    size = (20),
+                                                    hjust = 0), #0,5 para legenda centralizada
+                          axis.title = element_text(face = "bold",
+                                                    size = 15),
+                          axis.text.y=element_blank(),
+                          text = element_text(size=15)) +coord_flip()
+
+ggarrange(p1, p2,
+          heights = c(2, 1),
+          align = "hv",
+          ncol = 1,
+          nrow = 2)
 ```
 
 ---

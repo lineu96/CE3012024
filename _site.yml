@@ -37,8 +37,12 @@ navbar:
         
         - text: "Variáveis aleatórias"
           icon: fa-arrow-right
-          href: 
-        
+          href: listas/202-exercicios-variaveis-aleatorias.pdf
+
+        - text: "Distribuições de probabilidade"
+          icon: fa-arrow-right
+          href:
+          
         - text: "Inferência"
           icon: fa-arrow-right
           href: 

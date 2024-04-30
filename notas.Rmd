@@ -157,41 +157,20 @@ DT::datatable(notas[,c('GRR',
 <center>
 ```{r, echo=FALSE}
 
-presencas <- 71-(colSums(notas[,15:82], na.rm = T)/2)
+datas1 <- stringr::str_remove(names(notas)[15:(length(names(notas))-5)],
+                              "'")
 
-datas <- seq(as.Date("2024-02-29"), 
-             as.Date("2024-06-25"), 
-             by = "days")
+datas2 <- stringr::str_remove(datas1, c("'"))
 
-exclusoes <- c(3,4,7)
+datas <- lubridate::dmy(datas2)
 
-for (i in 1:16) {
-  tmp <- c(3,4,7)+(7*i)
-  exclusoes <- c(exclusoes,tmp)
-}
-
-datas <-  datas[-exclusoes]
+presencas <- colSums(is.na(notas[,15:(length(names(notas))-5)]))
 
 presencas <- data.frame(datas = datas,
                         presencas = presencas)
 
-sem_aula <- as.Date(c('2024-02-29',
-                      '2024-03-01',
-                      '2024-03-29',
-                      '2024-04-01',
-                      '2024-04-02',
-                      '2024-04-29',
-                      '2024-04-19',
-                      '2024-04-22',
-                      '2024-04-23',
-                      '2024-04-25')
-)
-
-
-presencas2 <- subset(presencas, !(datas %in% sem_aula))
-
-pander::pander(posicao(subset(presencas2, datas <= lubridate::today())$presencas))
-pander::pander(dispersao(subset(presencas2, datas <= lubridate::today())$presencas))
+pander::pander(posicao(subset(presencas, datas <= lubridate::today())$presencas))
+pander::pander(dispersao(subset(presencas, datas <= lubridate::today())$presencas))
 ```
 </center>
 
@@ -200,7 +179,7 @@ pander::pander(dispersao(subset(presencas2, datas <= lubridate::today())$presenc
 library(ggplot2)
 library(ggpubr)
 
-ggplot(data = subset(presencas2, datas <= lubridate::today()),
+ggplot(data = subset(presencas, datas <= lubridate::today()),
        aes(x=datas, y=presencas)) +
   geom_line() +
   geom_point() +

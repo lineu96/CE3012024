@@ -188,8 +188,8 @@ ggplot(data = subset(presencas, datas <= lubridate::today()),
              lwd = 1.5,
              col = 2,
              lty = 2) +
-  ylab("Densidade") +
-  xlab("") +
+  ylab("Nº de presentes") +
+  xlab("Data") +
   ylim(c(0,71))+
   ggtitle("Série de presenças")+
   theme_classic() + 

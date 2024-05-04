@@ -41,7 +41,7 @@ navbar:
 
         - text: "Distribuições de probabilidade"
           icon: fa-arrow-right
-          href:
+          href: listas/203-exercicios-distribuicoes.pdf
           
         - text: "Inferência"
           icon: fa-arrow-right

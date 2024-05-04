@@ -113,11 +113,11 @@ output:
 
  - 29/04/24 (seg) - Variáveis aleatórias discretas e contínuas. ([slides](slides/300-variaveis-aleatorias.pdf), [exercícios](praticas-aula/300-variaveis-aleatorias-enunciado.pdf)).
  - 01/05/24 (qua) - **Feriado: dia do trabalho.**
- - 03/05/24 (qui) - Exercícios e [distribuições de probabilidade discretas](slides/301-distribuicoes-discretas.pdf).
+ - 03/05/24 (sex) - Exercícios e [distribuições de probabilidade discretas](slides/301-distribuicoes-discretas.pdf).
  
 **Semana 11**
 
- - 06/05/24 (seg) - Distribuições de probabilidade contínuas e exercícios.
+ - 06/05/24 (seg) - Exercícios e distribuições de probabilidade contínuas.
  - 08/05/24 (qua) - Exercícios e prática em R.
     
 **Semana 12**

@@ -118,7 +118,7 @@ output:
 **Semana 11**
 
  - 06/05/24 (seg) - Exercícios e [distribuições de probabilidade contínuas](slides/302-distribuicoes-continuas.pdf).
- - 08/05/24 (qua) - Exercícios e prática em R.
+ - 08/05/24 (qua) - [Distribuição Normal](normal-silvia.pdf) e exercícios.
     
 **Semana 12**
 

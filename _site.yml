@@ -47,6 +47,14 @@ navbar:
           icon: fa-arrow-right
           href: 
 
+    - text: "Tabelas"
+      icon: fa-pencil
+      menu:
+
+        - text: "Tabela z"
+          icon: fa-arrow-right
+          href: tabelas/tabela-z.pdf
+
         
     - text: "Notas e frequência"
       icon: fa-table

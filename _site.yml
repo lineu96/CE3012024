@@ -48,13 +48,16 @@ navbar:
           href: 
 
     - text: "Tabelas"
-      icon: fa-pencil
+      icon: fa-table
       menu:
 
-        - text: "Tabela z"
+        - text: "Tabela z (lado positivo)"
           icon: fa-arrow-right
           href: tabelas/tabela-z.pdf
 
+        - text: "Tabela z (completa)"
+          icon: fa-arrow-right
+          href: tabelas/tabela-z2.pdf
         
     - text: "Notas e frequência"
       icon: fa-table

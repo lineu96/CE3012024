@@ -122,8 +122,7 @@ output:
     
 **Semana 12**
 
- - 13/05/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 15/05/24 (qua) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 13/05/24 (seg) - Variáveis aleatórias e distribuições de probabilidade no R. ([script](praticas-R/300-distribuicoes.R), [tarefa](praticas-R/301-exercicios-sugeridos.R))
  - 17/05/24 (sex) - **PROVA 3**.
 
 ---

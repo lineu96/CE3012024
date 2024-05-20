@@ -43,14 +43,22 @@ navbar:
           icon: fa-arrow-right
           href: listas/203-exercicios-distribuicoes.pdf
           
-        - text: "Inferência"
+        - text: "Distribuição amostral e intervalos de confiança"
           icon: fa-arrow-right
-          href: 
+          href: listas/301-exercicios-distribuicao-amostral-ic.pdf
 
-    - text: "Tabelas"
+        - text: "Testes de hipóteses"
+          icon: fa-arrow-right
+          href: listas/302-exercicios-testes-de-hipoteses.pdf
+          
+    - text: "Tabelas e formulários"
       icon: fa-table
       menu:
 
+        - text: "Formulário"
+          icon: fa-arrow-right
+          href: tabelas/forumlario2.pdf
+          
         - text: "Tabela z (lado positivo)"
           icon: fa-arrow-right
           href: tabelas/tabela-z.pdf
@@ -59,8 +67,20 @@ navbar:
           icon: fa-arrow-right
           href: tabelas/tabela-z2.pdf
         
+        - text: "Tabela t"
+          icon: fa-arrow-right
+          href: tabelas/tabela-t.pdf
+
+        - text: "Tabela Qui-quadrado"
+          icon: fa-arrow-right
+          href: tabelas/tabela-chi.pdf
+
+        - text: "Tabela F"
+          icon: fa-arrow-right
+          href: tabelas/tabela-f.pdf
+          
     - text: "Notas e frequência"
-      icon: fa-table
+      icon: fa-square-poll-vertical
       href: notas.html
       
   right:

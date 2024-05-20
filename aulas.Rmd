@@ -123,7 +123,7 @@ output:
 **Semana 12**
 
  - 13/05/24 (seg) - Variáveis aleatórias e distribuições de probabilidade no R. ([script](praticas-R/300-distribuicoes.R), [tarefa](praticas-R/301-exercicios-sugeridos.R))
- - 17/05/24 (sex) - **PROVA 3**.
+ - 17/05/24 (sex) - [**PROVA 3**](provas/prova3-ce301.pdf).
 
 ---
 
@@ -131,32 +131,24 @@ output:
 
 **Semana 13**
 
- - 20/05/24 (seg) - Introdução à inferência.
- - 21/05/24 (ter) - Exercícios distribuição amostral.
- - 23/05/24 (qui) - Dinâmica.
- - 24/05/24 (sex) - Prática em R
+ - 20/05/24 (seg) - [Introdução à inferência](slides/400-intro-inferencia.pdf) e [exercícios](praticas-aula/401-intro-inferencia-dist-amostral-enunciado.pdf).
+ - 22/05/24 (qua) - Estimação pontual e intervalar e exercícios.
     
 **Semana 14**
 
- - 27/05/24 (seg) - Estimação pontual e intervalar.
- - 28/05/24 (ter) - Tamanho amostral + Exercícios.
- - 30/05/24 (qui) - **Feriado: Corpus Christi.**
- - 31/05/24 (sex) - **Feriado: Corpus Christi.**
-    
+ - 27/05/24 (seg) - Tamanho amostral + Exercícios.
+ - 29/05/24 (qua) - Prática em R.
+
 **Semana 15**
 
- - 03/05/24 (seg) - Dinâmica.
- - 04/05/24 (ter) - Prática em R.
- - 06/05/24 (qui) - Introdução aos testes de hipóteses e testes para uma população.
- - 07/05/24 (sex) - Exercícios.
+ - 03/05/24 (seg) - Introdução aos testes de hipóteses e testes para uma população e exercícios.
+ - 05/05/24 (qua) - Prática em R.
     
 **Semana 16**
 
- - 10/06/24 (seg) - Dinâmica. 
- - 11/06/24 (ter) - Prática em R.
- - 13/06/24 (qui) - Tira dúvidas/exercícios/dinâmica (a definir).
- - 14/06/24 (sex) - Tira dúvidas/exercícios/dinâmica (a definir).
-    
+ - 10/06/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir). 
+ - 12/06/24 (qua) - Tira dúvidas/exercícios/dinâmica (a definir).
+ 
 **Semana 17**
 
  - 17/06/24 (seg) - **PROVA 4** (possível data).

@@ -57,7 +57,7 @@ navbar:
 
         - text: "Formulário"
           icon: fa-arrow-right
-          href: tabelas/forumlario2.pdf
+          href: tabelas/formulario2.pdf
           
         - text: "Tabela z (lado positivo)"
           icon: fa-arrow-right

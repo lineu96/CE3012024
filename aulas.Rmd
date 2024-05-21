@@ -73,7 +73,7 @@ output:
  - 28/03/24 (qui) - [Análises bivariadas no R.](praticas-R/102-analises-bivariadas.R)
  - 29/03/24 (sex) - **Feriado: sexta-feira santa.**
     
-**Semana 6** (prova 1)
+**Semana 6**
 
  - 01/04/24 (seg) - Tira dúvidas Silvia (sala 203).
  - 02/04/24 (ter) - Tira dúvidas Lineu (sala 232/225).
@@ -131,30 +131,30 @@ output:
 
 **Semana 13**
 
- - 20/05/24 (seg) - [Introdução à inferência](slides/400-intro-inferencia.pdf) e [exercícios](praticas-aula/401-intro-inferencia-dist-amostral-enunciado.pdf).
- - 22/05/24 (qua) - Estimação pontual e intervalar e exercícios.
+ - 20/05/24 (seg) - [Introdução à inferência](slides/400-intro-inferencia.pdf) e [exercícios](praticas-aula/400-intro-inferencia-dist-amostral-enunciado.pdf).
+ - 22/05/24 (qua) - [Estimação pontual e intervalar](slides/401-estimacao-pontual-intervalar.pdf) e [exercícios](praticas-aula/401-intervalo-de-confianca-enunciado.pdf).
     
 **Semana 14**
 
- - 27/05/24 (seg) - Tamanho amostral + Exercícios.
- - 29/05/24 (qua) - Prática em R.
+ - 27/05/24 (seg) - [Tamanho amostral](slides/402-tamanho-amostral.pdf), [exercícios](praticas-aula/402-tamanho-amostral-enunciado.pdf) e prática em R.
+ - 29/05/24 (qua) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
 
 **Semana 15**
 
- - 03/05/24 (seg) - Introdução aos testes de hipóteses e testes para uma população e exercícios.
- - 05/05/24 (qua) - Prática em R.
+ - 03/05/24 (seg) - Exercícios e prática em R.
+ - 05/05/24 (qua) - Tira dúvidas/exercícios/dinâmica (a definir).
     
 **Semana 16**
 
- - 10/06/24 (seg) - Tira dúvidas/exercícios/dinâmica (a definir). 
- - 12/06/24 (qua) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 10/06/24 (seg) - **PROVA 4** (possível data).
+ - 12/06/24 (qua) - **PROVA 4** (possível data).
  
 **Semana 17**
 
- - 17/06/24 (seg) - **PROVA 4** (possível data).
- - 18/06/24 (ter) - **PROVA 4** (possível data).
- - 20/06/24 (qui) - **PROVA 4** (possível data).
- - 21/06/24 (sex) - **PROVA 4** (possível data).
+ - 17/06/24 (seg) - 
+ - 18/06/24 (ter) - 
+ - 20/06/24 (qui) - 
+ - 21/06/24 (sex) - 
     
 **Semana 18**
 

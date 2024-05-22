@@ -136,18 +136,18 @@ output:
     
 **Semana 14**
 
- - 27/05/24 (seg) - [Tamanho amostral](slides/402-tamanho-amostral.pdf), [exercícios](praticas-aula/402-tamanho-amostral-enunciado.pdf) e prática em R.
- - 29/05/24 (qua) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
+ - 27/05/24 (seg) - [Evento dia do Estatístico](dia-do-estatistico.jpg). **HAVERÁ CHAMADA!**
+ - 29/05/24 (qua) - [Tamanho amostral](slides/402-tamanho-amostral.pdf), [exercícios](praticas-aula/402-tamanho-amostral-enunciado.pdf) e prática em R.
 
 **Semana 15**
 
- - 03/05/24 (seg) - Exercícios e prática em R.
- - 05/05/24 (qua) - Tira dúvidas/exercícios/dinâmica (a definir).
+ - 03/05/24 (seg) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
+ - 05/05/24 (qua) - Exercícios e prática em R.
     
 **Semana 16**
 
- - 10/06/24 (seg) - **PROVA 4** (possível data).
  - 12/06/24 (qua) - **PROVA 4** (possível data).
+ - 14/06/24 (sex) - **PROVA 4** (possível data).
  
 **Semana 17**
 

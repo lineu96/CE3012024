@@ -141,8 +141,8 @@ output:
 
 **Semana 15**
 
- - 03/05/24 (seg) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
- - 05/05/24 (qua) - Exercícios e prática em R.
+ - 03/06/24 (seg) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
+ - 05/06/24 (qua) - Exercícios e prática em R.
     
 **Semana 16**
 
@@ -160,7 +160,7 @@ output:
 
  - 24/06/24 (seg) - 
  - 25/06/24 (ter) - 
- - 26/06/24 (qui) - **FIM DO PERÍODO LETIVO**
+ - 26/06/24 (qua) - **FIM DO PERÍODO LETIVO**
 
 **Exames (possíveis datas)**
 

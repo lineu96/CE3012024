@@ -111,7 +111,7 @@ output:
 
 **Semana 10**
 
- - 29/04/24 (seg) - Variáveis aleatórias discretas e contínuas. ([slides](slides/300-variaveis-aleatorias.pdf), [exercícios](praticas-aula/300-variaveis-aleatorias-enunciado.pdf)).
+ - 29/04/24 (seg) - Variáveis aleatórias discretas e contínuas. ([slides](slides/300-variaveis-aleatorias.pdf), [exercícios](praticas-aula/300-variaveis-aleatorias-solucao.pdf)).
  - 01/05/24 (qua) - **Feriado: dia do trabalho.**
  - 03/05/24 (sex) - Exercícios e [distribuições de probabilidade discretas](slides/301-distribuicoes-discretas.pdf).
 
@@ -131,13 +131,13 @@ output:
 
 **Semana 13**
 
- - 20/05/24 (seg) - [Introdução à inferência](slides/400-intro-inferencia.pdf) e [exercícios](praticas-aula/400-intro-inferencia-dist-amostral-enunciado.pdf).
- - 22/05/24 (qua) - [Estimação pontual e intervalar](slides/401-estimacao-pontual-intervalar.pdf) e [exercícios](praticas-aula/401-intervalo-de-confianca-enunciado.pdf).
+ - 20/05/24 (seg) - [Introdução à inferência](slides/400-intro-inferencia.pdf) e [exercícios](praticas-aula/400-intro-inferencia-dist-amostral-solucao.pdf).
+ - 22/05/24 (qua) - [Estimação pontual e intervalar](slides/401-estimacao-pontual-intervalar.pdf) e [exercícios](praticas-aula/401-intervalo-de-confianca-solucao.pdf).
     
 **Semana 14**
 
  - 27/05/24 (seg) - [Evento dia do Estatístico](dia-do-estatistico.jpg). **HAVERÁ CHAMADA!**
- - 29/05/24 (qua) - [Tamanho amostral](slides/402-tamanho-amostral.pdf), [exercícios](praticas-aula/402-tamanho-amostral-enunciado.pdf) e prática em R.
+ - 29/05/24 (qua) - [Tamanho amostral](slides/402-tamanho-amostral.pdf), [exercícios](praticas-aula/402-tamanho-amostral-solucao.pdf) e prática em R.
 
 **Semana 15**
 

@@ -88,10 +88,15 @@ notas$`REMOTA 3` <- as.numeric(notas$`REMOTA 3`)
 notas$`REMOTA 4` <- as.numeric(notas$`REMOTA 4`)
 notas$`REMOTA 5` <- as.numeric(notas$`REMOTA 5`)
 notas$`TRABALHO 1` <- as.numeric(notas$`TRABALHO 1`)
+notas$`TRABALHO 2` <- as.numeric(notas$`TRABALHO 2`)
 
-notas$`MÉDIA REMOTAS` <- rowSums(notas[,c('REMOTA 1', 'REMOTA 2',
-                                          'REMOTA 3', 'REMOTA 4',
-                                          'REMOTA 5', 'TRABALHO 1')]) /6
+notas$`MÉDIA REMOTAS` <- rowSums(notas[,c('REMOTA 1', 
+                                          'REMOTA 2',
+                                          'REMOTA 3', 
+                                          'REMOTA 4',
+                                          'REMOTA 5', 
+                                          'TRABALHO 1',
+                                          'TRABALHO 2')]) /7
 
 soma_parciais <- rowSums(notas[,c('PROVA 1', 'PROVA 2',
                                   'PROVA 3', 'PROVA 4',
@@ -99,11 +104,10 @@ soma_parciais <- rowSums(notas[,c('PROVA 1', 'PROVA 2',
                          na.rm = T)
 
 menor_parcial <- pmin(
-  ifelse(
-    is.na(notas$`PROVA 1`),0, notas$`PROVA 1`), 
+  ifelse(is.na(notas$`PROVA 1`),0, notas$`PROVA 1`), 
   ifelse(is.na(notas$`PROVA 2`),0, notas$`PROVA 2`), 
   ifelse(is.na(notas$`PROVA 3`),0, notas$`PROVA 3`), 
-  ifelse(is.na(notas$`PROVA 3`),0, notas$`PROVA 4`), 
+  ifelse(is.na(notas$`PROVA 4`),0, notas$`PROVA 4`), 
   notas$`MÉDIA REMOTAS`,
   na.rm = T)
 
@@ -114,7 +118,7 @@ notas$`NOTAS PRÉ EXAME` <- pre_exame
 notas$`SITUAÇÃO PRÉ EXAME` <- 
   ifelse(notas$`NOTAS PRÉ EXAME` >= 7,
          "APROVADO",
-         ifelse(notas$`NOTAS PRÉ EXAME` < 4 | notas$FALTAS > 15, 
+         ifelse(notas$`NOTAS PRÉ EXAME` < 4 | notas$FALTAS > 30, 
                 "REPROVADO",
                 "EXAME"))
 
@@ -139,7 +143,8 @@ DT::datatable(notas[,c('GRR',
                        'REMOTA 2',
                        'REMOTA 3',
                        'REMOTA 4',
-                       'TRABALHO 1'#,
+                       'TRABALHO 1',
+                       'TRABALHO 2'
                        #"NOTAS PRÉ EXAME",
                        #"SITUAÇÃO PRÉ EXAME",
                        #"EXAME",

@@ -145,9 +145,7 @@ output:
  - 05/06/24 (qua) - Exercícios e prática em R.
     
 **Semana 16**
-
- - 12/06/24 (qua) - **PROVA 4** (possível data).
- - 14/06/24 (sex) - **PROVA 4** (possível data).
+ - 14/06/24 (sex) - **PROVA 4**.
  
 **Semana 17**
 
@@ -164,10 +162,7 @@ output:
 
 **Exames (possíveis datas)**
 
- - 01/07/24 (seg)
- - 02/07/24 (ter)
- - 04/07/24 (qui)
- - 05/07/24 (sex)
+ - 01/07/24 (seg) - **EXAME**.
 
 ---
 

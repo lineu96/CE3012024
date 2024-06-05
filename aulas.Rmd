@@ -142,7 +142,7 @@ output:
 **Semana 15**
 
  - 03/06/24 (seg) - [Introdução aos testes de hipóteses, testes para uma população](slides/403-testes-de-hipoteses.pdf) e [exercícios](praticas-aula/403-teste-de-hipoteses-enunciado.pdf).
- - 05/06/24 (qua) - Exercícios e [prática em R](praticas-R/402-ic-th.R).
+ - 05/06/24 (qua) - [Exercícios](exercicios-revisao-inferencia.pdf) e [prática em R](praticas-R/402-ic-th.R).
     
 **Semana 16**
  - 14/06/24 (sex) - **PROVA 4**.

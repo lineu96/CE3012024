@@ -11,7 +11,7 @@
 
 
 
-<title>Estatística básica</title>
+<title>CE301 - Estatística básica - Revisão de inferência</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,6 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -42,6 +44,16 @@
   ul.task-list{list-style: none;}
     </style>
 
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -398,238 +410,15 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Estatística básica</h1>
-<h3 class="subtitle"><div class="line-block">Prof. Me. Lineu Alberto
-Cavazani de Freitas<br />
-Prof. Dra. Silvia Emiko Shimakura</div></h3>
-<h4 class="author"><div class="line-block"><br />
-2024/01 - Estatística e Ciência de Dados</div></h4>
+<h1 class="title toc-ignore">CE301 - Estatística básica - Revisão de
+inferência</h1>
+<h4 class="date"><span class="math inline">\(1^o\)</span> Semestre
+2024</h4>
 
 </div>
 
 
-<hr />
-<div id="aulas-do-curso" class="section level1">
-<h1>Aulas do curso</h1>
-<hr />
-<div id="bloco-1-análise-exploratória" class="section level2">
-<h2>Bloco 1: Análise Exploratória</h2>
-<p><strong>Semana 1</strong></p>
-<ul>
-<li>26/02/24 (seg) - <strong>INÍCIO DO PERÍODO
-LETIVO/RECEPÇÃO</strong></li>
-<li>27/02/24 (ter) - <a href="slides/100-introducao.pdf">Orientações
-iniciais e Introdução.</a></li>
-<li>29/02/24 (qui) - <a href="slides/000-revisao-matematica.pdf">Revisão
-matemática.</a></li>
-<li>01/03/24 (sex) - Revisão matemática.</li>
-</ul>
-<p><strong>Semana 2</strong></p>
-<ul>
-<li>04/03/24 (seg) - Revisão matemática.</li>
-<li>05/03/24 (ter) - <a href="slides/101-dados-e-amostragem.pdf">Dados e
-amostragem.</a></li>
-<li>07/03/24 (qui) - <a
-href="praticas-aula/100-variaveis-estudos-amostragem-solucao.pdf">Atividade
-prática: tipos de variáveis, tipos de estudos e amostragem</a>.</li>
-<li>08/03/24 (sex) - Introdução ao R (<a
-href="slides/000-introducao-ao-r.pdf">slides</a>, <a
-href="praticas-R/000-ambientacao-ao-R.R">script</a>)</li>
-</ul>
-<p><strong>Semana 3</strong></p>
-<ul>
-<li>11/03/24 (seg) - <a
-href="slides/102-exploratoria-quali-uni-tabelas-graficos.pdf">Gráficos e
-tabelas para variáveis qualitativas.</a></li>
-<li>12/03/24 (ter) - <a
-href="slides/103-exploratoria-quant-uni-tabelas-graficos.pdf">Gráficos e
-tabelas para variáveis quantitativas.</a></li>
-<li>14/03/24 (qui) - <a
-href="praticas-aula/101-tabelas-graficos-quali-quant-solucao.pdf">Atividade
-prática: gráficos e tabelas</a>.</li>
-<li>15/03/24 (sex) - <a
-href="praticas-R/100-graficos-tabelas-uni.R">Gráficos e tabelas no
-R.</a></li>
-</ul>
-<p><strong>Semana 4</strong></p>
-<ul>
-<li>18/03/24 (seg) - <a
-href="slides/104-exploratoria-medidas-posicao.pdf">Resumos numéricos -
-medidas de posição.</a></li>
-<li>19/03/24 (ter) - <a
-href="slides/105-exploratoria-medidas-dispersao.pdf">Resumos numéricos -
-medidas de dispersão.</a></li>
-<li>21/03/24 (qui) - <a
-href="praticas-aula/102-medidas-posicao-dispersao-solucao.pdf">Atividade
-prática: medidas de posição e dispersão</a>.</li>
-<li>22/03/24 (sex) - <a href="praticas-R/101-medidas-uni.R">Medidas de
-posição e dispersão no R.</a></li>
-</ul>
-<p><strong>Semana 5</strong></p>
-<ul>
-<li>25/03/24 (seg) - <a
-href="slides/106-exploratoria-bivariada.pdf">Análises
-bivariadas.</a></li>
-<li>26/03/24 (ter) - <a
-href="praticas-aula/103-analises-bivariadas-solucao.pdf">Atividade
-prática: análises bivariadas</a>.</li>
-<li>28/03/24 (qui) - <a
-href="praticas-R/102-analises-bivariadas.R">Análises bivariadas no
-R.</a></li>
-<li>29/03/24 (sex) - <strong>Feriado: sexta-feira santa.</strong></li>
-</ul>
-<p><strong>Semana 6</strong></p>
-<ul>
-<li>01/04/24 (seg) - Tira dúvidas Silvia (sala 203).</li>
-<li>02/04/24 (ter) - Tira dúvidas Lineu (sala 232/225).</li>
-<li>04/04/24 (qui) - <a href="provas/prova1-ce301.pdf"><strong>PROVA
-1</strong></a>.</li>
-<li>05/04/24 (sex) - Revisão da prova/resolução no R.</li>
-</ul>
-<hr />
-</div>
-<div id="bloco-2-probabilidades" class="section level2">
-<h2>Bloco 2: Probabilidades</h2>
-<p><strong>Semana 7</strong></p>
-<ul>
-<li>08/04/24 (seg) - Aula com o prof. Paulo Justiniano: Motivando
-probabilidades. <a href="pj-preprob.pdf">Lista 1</a>, <a
-href="pj-pospro.pdf">Lista 2</a>.</li>
-<li>09/04/24 (ter) - <a href="slides/200-intro-prob.pdf">Introdução a
-probabilidade</a>.</li>
-<li>11/04/24 (qui) - <a
-href="slides/201-operacoes-com-probabilidades.pdf">Operações com
-probabilidades</a>.</li>
-<li>12/04/24 (sex) - Obtendo probabilidades da forma frequentista (<a
-href="praticas-R/201-moeda.R">moeda</a>, <a
-href="praticas-R/202-dado.R">dado</a>, <a
-href="praticas-R/203-chavalier1.R">chavalier 1</a>, <a
-href="praticas-R/204-chavalier2.R">chavalier 2</a>). Calculando
-probabilidade com base em tabelas de dupla entrada (<a
-href="praticas-R/205-prob-animais.R">animais</a>).</li>
-</ul>
-<p><strong>Semana 8</strong></p>
-<ul>
-<li>15/04/24 (seg) - <a href="slides/202-teorema-de-bayes.pdf">Teorema
-de Bayes</a>.</li>
-<li>16/04/24 (ter) - Resolução de exercícios.</li>
-<li>18/04/24 (qui) - Resolução de exercícios.</li>
-<li>19/04/24 (sex) - <a
-href="praticas-aula/200-probabilidade-solucao.pdf">Atividade prática:
-probabilidades</a>.</li>
-</ul>
-<p><strong>Semana 9</strong></p>
-<ul>
-<li>22/04/24 (seg) - Tira dúvidas.</li>
-<li>23/04/24 (ter) - Tira dúvidas.</li>
-<li>25/04/24 (qui) - Tira dúvidas.</li>
-<li>26/04/24 (sex) - <strong>PROVA 2</strong>.</li>
-</ul>
-<hr />
-</div>
-<div id="bloco-3-variáveis-aleatórias-e-distribuições-de-probabilidade"
-class="section level2">
-<h2>Bloco 3: Variáveis Aleatórias e Distribuições de Probabilidade</h2>
-<p><strong>Semana 10</strong></p>
-<ul>
-<li>29/04/24 (seg) - Variáveis aleatórias discretas e contínuas. (<a
-href="slides/300-variaveis-aleatorias.pdf">slides</a>, <a
-href="praticas-aula/300-variaveis-aleatorias-solucao.pdf">exercícios</a>).</li>
-<li>01/05/24 (qua) - <strong>Feriado: dia do trabalho.</strong></li>
-<li>03/05/24 (sex) - Exercícios e <a
-href="slides/301-distribuicoes-discretas.pdf">distribuições de
-probabilidade discretas</a>.</li>
-</ul>
-<p><strong>Semana 11</strong></p>
-<ul>
-<li>06/05/24 (seg) - Exercícios e <a
-href="slides/302-distribuicoes-continuas.pdf">distribuições de
-probabilidade contínuas</a>.</li>
-<li>08/05/24 (qua) - <a href="normal-silvia.pdf">Distribuição Normal</a>
-e exercícios.</li>
-</ul>
-<p><strong>Semana 12</strong></p>
-<ul>
-<li>13/05/24 (seg) - Variáveis aleatórias e distribuições de
-probabilidade no R. (<a
-href="praticas-R/300-distribuicoes.R">script</a>, <a
-href="praticas-R/301-exercicios-sugeridos.R">tarefa</a>)</li>
-<li>17/05/24 (sex) - <a href="provas/prova3-ce301.pdf"><strong>PROVA
-3</strong></a>.</li>
-</ul>
-<hr />
-</div>
-<div id="bloco-4-inferência" class="section level2">
-<h2>Bloco 4: Inferência</h2>
-<p><strong>Semana 13</strong></p>
-<ul>
-<li>20/05/24 (seg) - <a
-href="slides/400-intro-inferencia.pdf">Introdução à inferência</a> e <a
-href="praticas-aula/400-intro-inferencia-dist-amostral-solucao.pdf">exercícios</a>.</li>
-<li>22/05/24 (qua) - <a
-href="slides/401-estimacao-pontual-intervalar.pdf">Estimação pontual e
-intervalar</a> e <a
-href="praticas-aula/401-intervalo-de-confianca-solucao.pdf">exercícios</a>.</li>
-</ul>
-<p><strong>Semana 14</strong></p>
-<ul>
-<li>27/05/24 (seg) - <a href="dia-do-estatistico.jpg">Evento dia do
-Estatístico</a>. <strong>HAVERÁ CHAMADA!</strong></li>
-<li>29/05/24 (qua) - <a href="slides/402-tamanho-amostral.pdf">Tamanho
-amostral</a>, <a
-href="praticas-aula/402-tamanho-amostral-enunciado.pdf">exercícios</a> e
-<a href="praticas-R/401-exercicios-ic-tamanho-amostral.R">prática em
-R</a>.</li>
-</ul>
-<p><strong>Semana 15</strong></p>
-<ul>
-<li>03/06/24 (seg) - <a
-href="slides/403-testes-de-hipoteses.pdf">Introdução aos testes de
-hipóteses, testes para uma população</a> e <a
-href="praticas-aula/403-teste-de-hipoteses-enunciado.pdf">exercícios</a>.</li>
-<li>05/06/24 (qua) - Exercícios e <a
-href="praticas-R/402-ic-th.R">prática em R</a>.</li>
-</ul>
-<p><strong>Semana 16</strong> - 14/06/24 (sex) - <strong>PROVA
-4</strong>.</p>
-<p><strong>Semana 17</strong></p>
-<ul>
-<li><strong>SEMANA DE ESTUDOS</strong></li>
-</ul>
-<p><strong>Semana 18</strong></p>
-<ul>
-<li>26/06/24 (qua) - <strong>FIM DO PERÍODO LETIVO</strong></li>
-</ul>
-<p><strong>Exame</strong></p>
-<ul>
-<li>01/07/24 (seg) - <strong>EXAME</strong>.</li>
-</ul>
-<hr />
-<center>
-<table>
-<tr>
-<td>
-<img src="img/ufpr-transparent-600px.png" alt="Drawing" style="width: 200px;"/>
-</td>
-<td>
-           
-</td>
-<td>
-<img src="img/dest-texto-2.png" alt="Drawing" style="width: 250px;"/>
-</td>
-<td>
-           
-</td>
-<td>
-<img src="img/leg.png" alt="Drawing" style="width: 300px;"/>
-</td>
-</center>
-<div class="tocify-extend-page" data-unique="tocify-extend-page"
-style="height: 0;">
 
-</div>
-</div>
-</div>
 
 
 

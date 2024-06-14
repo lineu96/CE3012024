@@ -24,7 +24,7 @@ header-includes:
 ---
 
 ```{r,echo=FALSE}
-eval=FALSE
+eval=TRUE
 Grupo=1
 set.seed(256561379)
 semente=runif(50,2131241, 763535643)

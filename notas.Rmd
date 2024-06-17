@@ -117,10 +117,10 @@ notas$`NOTAS PRÉ EXAME` <- pre_exame
 
 notas$`SITUAÇÃO PRÉ EXAME` <- 
   ifelse(notas$`NOTAS PRÉ EXAME` >= 7,
-         "APROVADO",
-         ifelse(notas$`NOTAS PRÉ EXAME` < 4 | notas$FALTAS > 30, 
-                "REPROVADO",
-                "EXAME"))
+       "APROVADO",
+       ifelse(notas$`NOTAS PRÉ EXAME` < 4, 
+              "REPROVADO",
+              "EXAME"))
 
 notas$`NOTAS FINAIS` <- 
   ifelse(notas$`SITUAÇÃO PRÉ EXAME` == 'EXAME',
@@ -139,14 +139,15 @@ DT::datatable(notas[,c('GRR',
                        'PROVA 1', 
                        'PROVA 2',
                        'PROVA 3',
+                       'PROVA 4',
                        'REMOTA 1', 
                        'REMOTA 2',
                        'REMOTA 3',
                        'REMOTA 4',
                        'TRABALHO 1',
-                       'TRABALHO 2'
-                       #"NOTAS PRÉ EXAME",
-                       #"SITUAÇÃO PRÉ EXAME",
+                       'TRABALHO 2',
+                       "NOTAS PRÉ EXAME",
+                       "SITUAÇÃO PRÉ EXAME"
                        #"EXAME",
                        #"NOTAS FINAIS",
                        #"SITUAÇÃO FINAL"
